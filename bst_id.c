@@ -28,7 +28,7 @@ case 1: printf("Data:");
 case 2: printf("Data to be deleted:");
         scanf("%d",&data);
         root=tdelete(root,data);
-        printf("item deleted");
+       
         break;
 case 3: printf("Binary search tree content:\n");
         inorder(root);
